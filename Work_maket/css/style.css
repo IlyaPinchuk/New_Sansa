@@ -1,0 +1,774 @@
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #4D2E00;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-image: url("../image/bg1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+header .wrapper-header {
+  margin: 0 auto;
+}
+header .wrapper-header .title-header {
+  flex-direction: column;
+  margin-top: 80px;
+}
+header .wrapper-header .title-header h2 {
+  margin-top: 24px;
+  font-size: 56px;
+  max-width: 900px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4D2E00;
+}
+header .wrapper-header .title-header h2 span {
+  color: #FFCB54;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(270deg, #F4B63D 0%, #FEC852 52.6%, #E69E20 100%);
+  border-image-slice: 1;
+}
+
+@media only screen and (max-width: 1700px) {
+  header h2 {
+    font-size: 50px;
+  }
+  header .wrapper-header .title-header h2 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  header h2 {
+    font-size: 50px;
+  }
+  header .wrapper-header .title-header h2 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  header .wrapper-header .title-header h2 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header {
+    min-height: 570px;
+  }
+  header .wrapper-header .title-header h2 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 577px) {
+  header .wrapper-header .title-header h2 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+main .wrapper-main {
+  background-image: url("../image/bg2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+main .wrapper-main h2 {
+  max-width: 300px;
+  padding-bottom: 15px;
+  padding-top: 72px;
+  font-size: 56px;
+  color: #FFCB54;
+  border-bottom: 5px solid;
+  background: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  -webkit-mask-image: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+}
+main .wrapper-main p {
+  font-size: 24px;
+  margin-top: 44px;
+  color: #4D2E00;
+}
+main .wrapper-main p span {
+  font-weight: 700;
+}
+main .wrapper-idea {
+  min-height: 100vh;
+}
+main .wrapper-idea .wrapper-communication h2 {
+  font-weight: 700;
+  margin: 50px 0 70px;
+  font-size: 56px;
+  text-align: center;
+  color: #FFCB54;
+  background: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  -webkit-mask-image: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+}
+main .wrapper-idea .wrapper-communication .block-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+main .wrapper-idea .wrapper-communication .block-item p {
+  margin-top: 26px;
+  font-size: 18px;
+  text-align: center;
+}
+main .wrapper-idea .wrapper-communication .block-item p span {
+  font-weight: 700;
+}
+main .wrapper-idea .wrapper-communication .wrapper-text {
+  margin: 70px auto;
+  border: 2px solid #FFCB54;
+  padding: 25px 175px;
+}
+main .wrapper-idea .wrapper-communication .wrapper-text p {
+  color: #4D2E00;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+main .wrapper-idea .wrapper-communication .wrapper-charity {
+  display: flex;
+}
+main .wrapper-idea .wrapper-communication .wrapper-charity .wrapper-img {
+  margin-right: 30px;
+}
+main .wrapper-idea .wrapper-communication .wrapper-charity .charity-text {
+  max-width: 900px;
+}
+main .wrapper-idea .wrapper-communication .wrapper-charity .charity-text h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #4D2E00;
+}
+main .wrapper-idea .wrapper-communication .wrapper-charity .charity-text p {
+  font-size: 18px;
+  color: #4D2E00;
+  text-align: left;
+}
+main .wrapper-ideal {
+  background-image: url("../image/bg3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+main .wrapper-ideal .block-text {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 650px;
+}
+main .wrapper-ideal .block-text .wrapper-text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .wrapper-ideal .block-text .wrapper-text h2 {
+  font-weight: 700;
+  margin: 28px auto;
+  font-size: 56px;
+  text-align: center;
+  color: #FFCB54;
+  text-transform: uppercase;
+  border-bottom: 5px solid;
+  background: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  -webkit-mask-image: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+}
+main .wrapper-ideal .block-text .wrapper-text p {
+  text-align: left;
+  margin-top: 26px;
+  font-size: 18px;
+}
+main .wrapper-advantage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 68px;
+}
+main .wrapper-advantage h2 {
+  padding: 65px 0;
+  text-align: left;
+  font-weight: 700;
+  font-size: 56px;
+  color: #FFCB54;
+  background: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  -webkit-mask-image: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+}
+main .wrapper-advantage .block-item {
+  margin-bottom: 60px;
+}
+main .wrapper-advantage .block-item .wrapper-img {
+  margin-right: 30px;
+}
+main .wrapper-advantage .block-item .block-text h3 {
+  font-size: 24px;
+  color: #4D2E00;
+  font-weight: 700;
+}
+main .wrapper-advantage .wrapper-end-text p {
+  border-left: 5px solid #FFCB54;
+  padding: 0 37px 15px;
+}
+main .wrapper-geografy {
+  background: linear-gradient(180deg, #fdf8ed, #FFF4D8);
+}
+main .wrapper-geografy .wrapper-text {
+  text-align: center;
+}
+main .wrapper-geografy .wrapper-text h2 {
+  color: #FFCB54;
+  font-size: 56px;
+  font-weight: 700;
+  padding-top: 100px;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  -webkit-mask-image: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+}
+main .wrapper-geografy .wrapper-text p {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+main .wrapper-geografy .map {
+  height: 420px;
+}
+main .wrapper-geografy .wrapper-activity {
+  padding-bottom: 72px;
+}
+main .wrapper-geografy .wrapper-activity .wrapper-title h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 46px;
+  color: #4D2E00;
+  margin: 72px 0 50px;
+}
+main .wrapper-geografy .wrapper-activity .wrapper-link {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .wrapper-geografy .wrapper-activity .wrapper-link .blok-width {
+  width: 360px;
+}
+main .wrapper-geografy .wrapper-activity .wrapper-link li {
+  width: 220px;
+  list-style: none;
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+}
+main .wrapper-geografy .wrapper-activity .wrapper-link li .link-item {
+  height: 58px;
+  background-color: #FFFFFF;
+  padding: 11px 16px;
+  font-size: 24px;
+  color: #4D2E00;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0px 3px 10px 0px #00000030;
+}
+main .wrapper-work {
+  background: linear-gradient(270deg, #FFCF55 0%, #FFF5D9 48.44%, #FFCF55 100%);
+  height: 350px;
+}
+main .wrapper-work .wrapper-title h2 {
+  font-weight: 700;
+  font-size: 46px;
+  color: #4D2E00;
+  padding-top: 84px;
+  text-align: center;
+}
+main .wrapper-work .wrapper-link {
+  display: flex;
+  justify-content: center;
+}
+main .wrapper-work .wrapper-link a {
+  margin: 40px;
+  color: #4D2E00;
+  background: linear-gradient(271.29deg, #FFBB50 0%, #F8D66A 54.17%, #FFB84C 98.44%);
+  padding: 26px 70px;
+  font-weight: 700;
+  font-size: 21px;
+  border-radius: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+main section {
+  background: linear-gradient(360deg, #FFFFFF 0%, #FFF5D9 151.87%);
+}
+main section .wrapper-list .title h2 {
+  padding-top: 60px;
+  max-width: 650px;
+  font-weight: 700;
+  font-size: 56px;
+  background: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  -webkit-mask-image: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+}
+main section .wrapper-list .list-block ul {
+  margin-bottom: 0;
+}
+main section .wrapper-list .list-block ul .list-item {
+  list-style: none;
+  padding-left: 60px;
+  font-size: 24px;
+  color: #4D2E00;
+  line-height: 53px;
+  position: relative;
+}
+main section .wrapper-list .list-block ul .list-item span {
+  font-weight: 700;
+}
+main section .wrapper-list .list-block ul .list-item:not(:last-child)::before {
+  content: "";
+  background-image: url(../image/check.svg);
+  background-size: 32px 32px;
+  position: absolute;
+  display: block;
+  height: 36px;
+  width: 36px;
+  background-repeat: no-repeat;
+  top: 10px;
+  left: 10px;
+}
+main section .wrapper-list .list-block ul .list-item:last-child {
+  padding: 30px 60px;
+}
+main section .wrapper-list .list-block ul .list-item:first-child {
+  line-height: 33px;
+}
+main .wrapper-way {
+  background-image: url(../image/bg4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
+}
+main .wrapper-way .wrapper-text-block h2 {
+  font-weight: 700;
+  font-size: 56px;
+  color: white;
+}
+main .wrapper-way .wrapper-text-block h2 span {
+  border-bottom: 5px solid #FFCF55;
+}
+main .wrapper-way .wrapper-text-block .text-block {
+  padding-bottom: 40px;
+  padding-left: 0;
+}
+main .wrapper-way .wrapper-text-block .text-block li {
+  list-style: none;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+main section .wrapper-perspect {
+  padding-bottom: 165px;
+}
+main section .wrapper-perspect .wrp-content {
+  max-width: 1020px;
+}
+main section .wrapper-perspect .wrp-content h2 {
+  font-weight: 700;
+  font-size: 56px;
+  padding-top: 65px;
+  background: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  -webkit-mask-image: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+}
+main section .wrapper-perspect .wrp-content .wrapper-list {
+  margin-top: 50px;
+  padding-left: 0;
+  padding-bottom: 60px;
+}
+main section .wrapper-perspect .wrp-content .wrapper-list li {
+  display: flex;
+  list-style: none;
+  color: #4D2E00;
+  font-size: 18px;
+  margin: 15px 0;
+}
+main section .wrapper-perspect .wrp-content .wrapper-list li img {
+  padding-right: 15px;
+}
+main section .wrapper-perspect .wrapper-open .wrapper-title {
+  margin-bottom: 70px;
+  padding-top: 100px;
+  text-align: center;
+}
+main section .wrapper-perspect .wrapper-open .wrapper-title h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 46px;
+  color: #4D2E00;
+}
+main section .wrapper-perspect .wrapper-open .wrapper-working {
+  background-color: white;
+  max-width: 400px;
+  padding: 33px 30px;
+}
+main section .wrapper-perspect .wrapper-open .wrapper-working .title {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+  color: #4D2E00;
+}
+main section .wrapper-perspect .wrapper-open .wrapper-working p,
+main section .wrapper-perspect .wrapper-open .wrapper-working li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #4D2E00;
+}
+main section .wrapper-perspect .wrapper-open .wrapper-working p span,
+main section .wrapper-perspect .wrapper-open .wrapper-working li span {
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 1700px) {
+  main .wrapper-main h2 {
+    font-size: 50px;
+  }
+  main .wrapper-main p {
+    font-size: 18px;
+  }
+  main .wrapper-idea .wrapper-communication h2 {
+    font-size: 50px;
+  }
+  main .wrapper-ideal .block-text .wrapper-text h2 {
+    font-size: 49px;
+  }
+  main .wrapper-advantage h2 {
+    font-size: 50px;
+  }
+  main .wrapper-geografy .wrapper-text h2 {
+    font-size: 50px;
+  }
+  main .wrapper-geografy .wrapper-activity .wrapper-title h2 {
+    font-size: 20px;
+  }
+  main .wrapper-geografy .wrapper-work .wrapper-title h2 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  main .wrapper-main h2 {
+    font-size: 30px;
+    max-width: 130px;
+  }
+  main .wrapper-main p {
+    font-size: 18px;
+  }
+  main .wrapper-idea .wrapper-communication h2 {
+    font-size: 30px;
+  }
+  main .wrapper-ideal .block-text .wrapper-text h2 {
+    font-size: 29px;
+  }
+  main .wrapper-advantage h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  main .wrapper-geografy .wrapper-text h2 {
+    font-size: 30px;
+  }
+  main .wrapper-geografy .wrapper-activity .wrapper-title h2 {
+    font-size: 20px;
+  }
+  main .wrapper-geografy .wrapper-work .wrapper-title h2 {
+    font-size: 20px;
+  }
+  main section .wrapper-list .title h2 {
+    font-size: 30px;
+  }
+  main .wrapper-way .wrapper-text-block h2 {
+    font-size: 30px;
+  }
+  main section .wrapper-perspect .wrp-content h2 {
+    font-size: 30px;
+  }
+
+  section .wrapper-list .title h2 {
+    font-size: 50px;
+  }
+
+  .wrapper-way .wrapper-text-block h2 {
+    font-size: 50px;
+  }
+
+  section .wrapper-perspect .wrp-content h2 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  main {
+    color: black;
+  }
+  main .wrapper-main h2 {
+    padding-top: 30px;
+  }
+  main .wrapper-main p {
+    font-size: 16px;
+  }
+  main .wrapper-geografy .wrapper-activity .wrapper-link {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .wrapper-geografy .wrapper-activity .wrapper-link li {
+    width: 300px !important;
+  }
+  main .wrapper-geografy .wrapper-activity .wrapper-link li .link-item {
+    font-size: 18px;
+  }
+  main .wrapper-geografy .wrapper-activity .wrapper-link li a {
+    width: 300px;
+  }
+  main .wrapper-work .wrapper-title h2 {
+    font-size: 30px;
+  }
+  main section .wrapper-list .list-block ul .list-item {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  main .wrapper-idea .wrapper-communication .wrapper-text {
+    padding: 15px;
+  }
+  main .wrapper-advantage .block-item {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  main section .wrapper-list .list-block ul .list-item:last-child {
+    padding: 0;
+  }
+  main .wrapper-way .wrapper-text-block .text-block li {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 577px) {
+  main .wrapper-geografy .wrapper-activity .wrapper-link {
+    flex-direction: column;
+    padding: 0;
+  }
+  main .wrapper-main {
+    min-height: 570px;
+  }
+  main .wrapper-ideal {
+    min-height: 570px;
+    background-position: 0 0;
+  }
+  main .wrapper-ideal .block-text .wrapper-text {
+    justify-content: flex-end;
+  }
+  main .wrapper-way {
+    min-height: 570px;
+  }
+  main section .wrapper-perspect .wrapper-open .wrapper-working {
+    margin: 0 auto;
+  }
+  main .wrapper-communication .wrapper-charity {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .wrapper-communication .wrapper-charity .charity-text h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+  main .wrapper-communication .wrapper-charity .charity-text p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 321px) {
+  main .wrapper-main p {
+    margin: 10px;
+    font-size: 10px;
+  }
+  main .wrapper-idea .wrapper-communication {
+    flex-direction: column;
+  }
+  main .wrapper-idea .wrapper-communication .wrapper-text p {
+    font-size: 12px;
+  }
+  main .wrapper-idea .wrapper-communication .block-item {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .wrapper-idea .wrapper-communication .wrapper-charity {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .wrapper-idea .wrapper-communication .wrapper-charity .charity-text h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+  main .wrapper-idea .wrapper-communication .wrapper-charity .charity-text p {
+    font-size: 12px;
+    text-align: center;
+  }
+  main .wrapper-ideal .block-text .wrapper-text p {
+    font-size: 12px;
+    text-align: center;
+  }
+  main .wrapper-advantage .wrapper-end-text p {
+    font-size: 12px;
+  }
+  main .wrapper-advantage .block-item .block-text h3 {
+    font-size: 20px;
+  }
+  main .wrapper-advantage .block-item .block-text p {
+    font-size: 12px;
+  }
+  main .wrapper-geografy .wrapper-activity .wrapper-link li .link-item {
+    padding: 10px;
+  }
+  main .wrapper-geografy .wrapper-text P {
+    font-size: 14px;
+  }
+  main .wrapper-work .wrapper-title h2 {
+    font-size: 24px;
+  }
+  main .wrapper-work .wrapper-link a {
+    font-size: 18px;
+  }
+  main section .wrapper-list .list-block ul .list-item {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  main section .wrapper-list .list-block ul .list-item:not(:last-child)::before {
+    width: 20px;
+    height: 20px;
+    background-position: center center;
+    background-size: cover;
+    top: 0;
+  }
+  main section .wrapper-list .title h2 {
+    font-size: 24px;
+  }
+  main .wrapper-way .wrapper-text-block .text-block li {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  main .wrapper-way .wrapper-text-block h2 {
+    font-size: 24px;
+    padding: 20px;
+  }
+  main section .wrapper-perspect .wrp-content .wrapper-list li {
+    font-size: 14px;
+  }
+  main section .wrapper-perspect .wrp-content h2 {
+    font-size: 24px;
+  }
+  main section .wrapper-perspect .wrapper-open .wrapper-working p {
+    font-size: 12px;
+  }
+  main section .wrapper-perspect .wrapper-open .wrapper-working li {
+    font-size: 12px;
+  }
+  main section .wrapper-perspect .wrapper-open .wrapper-title h2 {
+    font-size: 24px;
+  }
+}
+.wrapper-footer {
+  margin-bottom: 350px;
+}
+.wrapper-footer .title {
+  text-align: center;
+}
+.wrapper-footer .title h2 {
+  margin: 99px auto 72px;
+  font-weight: 700;
+  font-size: 56px;
+  background: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  -webkit-mask-image: linear-gradient(90deg, #FFBA4F 2.33%, #FFCF55 47.05%, #E49A1C 89.94%);
+}
+.wrapper-footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.wrapper-footer ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-footer ul li h3 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #4D2E00;
+  line-height: 43px;
+}
+.wrapper-footer ul li img {
+  margin: 20px auto;
+}
+.wrapper-footer ul li a {
+  font-size: 24px;
+  color: #4D2E00;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1050px) {
+  footer ul li {
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 321px) {
+  footer .wrapper-footer .title h2 {
+    font-size: 30px;
+  }
+  footer .wrapper-footer ul {
+    padding: 0;
+  }
+  footer .wrapper-footer ul li h3 {
+    font-size: 24px;
+  }
+  footer .wrapper-footer ul li a {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
